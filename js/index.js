@@ -18,11 +18,11 @@ class Miembro {
         this._nombre = nombre;
     }
 
-    comer(){
+    comer() {
         console.log("Estoy comiendo");
     }
 
-    cenar(){
+    cenar() {
         console.log("Estoy cenando");
     }
 }
