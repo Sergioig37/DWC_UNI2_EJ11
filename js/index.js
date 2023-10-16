@@ -4,10 +4,10 @@ class Miembro {
         this._apellidos = apellidos;
     }
 
-    get Nombre() {
+     Nombre() {
         return this._nombre;
     }
-    get Apellidos() {
+     Apellidos() {
         return this._apellidos;
     }
 
