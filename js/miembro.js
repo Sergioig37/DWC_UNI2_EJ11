@@ -1,13 +1,13 @@
-class Miembro {
+export default class Miembro {
     constructor(nombre = "-", apellidos = "-") {
         this._nombre = nombre;
         this._apellidos = apellidos;
     }
 
-     Nombre() {
+     get Nombre() {
         return this._nombre;
     }
-     Apellidos() {
+     get Apellidos() {
         return this._apellidos;
     }
 
@@ -27,8 +27,3 @@ class Miembro {
     }
 }
 
-var pol = new Miembro("Sergio", "Iglesias");
-
-console.log(pol.Nombre);
-console.log(pol.Apellidos);
-pol.comer();
