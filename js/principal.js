@@ -1,6 +1,7 @@
 import Miembro from "./miembro.js";
 import Hijo from "./hijo.js";
 import Padre from "./padre.js";
+import Familia from "./familia.js";
 
 
 var hijo1 = new Hijo("Sebastián", "García", null);
